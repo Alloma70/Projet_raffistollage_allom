@@ -1,27 +1,70 @@
 # ProjetRaffis
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
+*********************Cahier des charges pour l’application de raffistolage IGL2**************************************
 
-## Development server
+1. Introduction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+L’application de raffistolage vise à connecter les utilisateurs ayant des besoins
+de réparation avec des rafistoleurs. Voici les principales fonctionnalités
+et exigences de mon projet de raffistolage.
 
-## Code scaffolding
+2. Objectifs du projet
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+L’application doit permettre aux utilisateurs de :
 
-## Build
+-S’inscrire et créer un compte.
+-Consulter la liste des rafistoleurs disponibles.
+-Commander des services de réparation.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+-Les rafistoleurs doivent pouvoir :
 
-## Running unit tests
+-S’inscrire et créer un compte.
+-Mettre à jour leur profil (disponibilité, tarifs, etc.).
+-Recevoir des notifications pour les nouvelles commandes.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Fonctionnalités
 
-## Running end-to-end tests
+3.1. Interface utilisateur
+Inscription et connexion :
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+-Les utilisateurs doivent s’inscrire avec une adresse e-mail et un mot de passe.
+-Authentification.
+-Tableau de bord utilisateur :
+-Affichage des rafistoleurs disponibles.
+-Historique des commandes.
+-Messagerie avec les rafistoleurs.
 
-## Further help
+Tableau de bord rafistoleur :
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+-Profil (disponibilité, tarifs).
+-Liste des commandes en attente.
+-Messagerie avec les utilisateurs.
+
+3.2. Gestion des abonnements
+-Les utilisateurs doivent s’abonner pour accéder aux services de réparation.
+-Les raffistolleurs doivent s’abonner pour que leur profil s'affiche sur l'interfce utilisateur
+-Différents niveaux d’abonnement (mensuel, annuel, etc.).
+
+3.3. Recherche et filtres
+-Recherche de rafistoleurs par localisation, disponibilité, etc.
+-Filtrage des résultats.
+
+3.4. Notifications
+Notifications pour les nouvelles commandes, les messages, etc.
+
+4. Contraintes techniques
+L’application doit être développée en API (backend) et Angular (frontend).
+Utilisation d’une base de données (par exemple, MySQL) pour stocker les informations des utilisateurs et des rafistoleurs.
+Sécurité : gestion des sessions, etc.
+
+5. Planning
+
+Phase de conception : 02 jours.
+Phase de développement : 01 semaines.
+Tests et déploiement : 04 semaines.
+
+6. Budget
+Estimation des coûts de développement, d’hébergement et de maintenance.
+
+
+/**********************************Auteur: ALLOMA N'DA YAO JEAN-LUC************************************/
